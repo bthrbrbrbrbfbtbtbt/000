@@ -29,9 +29,9 @@ GROUP_ID = '-1002487517182'  # Allowed group ID where commands work AND group co
 REQUIRED_CHANNELS = ['@S4_official1', '@YOURxDEMONxYT', '@S4_OFFICIAL_GRP'] # Example: ['@mychannel1', '-1001234567890']
 
 # --- Attack Settings ---
-max_daily_attacks = 100 # Per user
+max_daily_attacks = 3 # Per user
 COOLDOWN_TIME = 2 # 240 seconds cooldown per user AND for the group
-ATTACK_SCRIPT_PATH = "./bgmi" # Path to your attack script (ensure it's executable: chmod +x night)
+ATTACK_SCRIPT_PATH = "./night" # Path to your attack script (ensure it's executable: chmod +x night)
 MAX_ATTACK_DURATION = 180 # Maximum allowed duration for a single attack in seconds
 MIN_ATTACK_DURATION = 1   # Minimum allowed duration
 
